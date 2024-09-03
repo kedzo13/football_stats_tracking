@@ -1,0 +1,13 @@
+1. create and start virual env 
+
+python -m venv env
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -- if restricted (Set-ExecutionPolicy Restricted -Scope CurrentUser) 
+.\env\Scripts\activate
+
+crtl + shift + P -> Python: Select Interpreter -- select env/*
+
+2. Enviormenting 
+
+pip install requests beautifulsoup4 pandas sqlalchemy matplotlib streamlit
+pip install requests
+
